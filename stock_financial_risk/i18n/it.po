@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 9.0c\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-02 00:47+0000\n"
-"PO-Revision-Date: 2023-01-18 11:48+0000\n"
+"PO-Revision-Date: 2023-01-18 12:03+0000\n"
 "Last-Translator: Francesco Foresti <francesco.foresti@ooops404.com>\n"
 "Language-Team: Italian (https://www.transifex.com/oca/teams/23907/it/)\n"
 "Language: it\n"
@@ -21,13 +21,13 @@ msgstr ""
 "X-Generator: Weblate 4.14.1\n"
 
 #. module: stock_financial_risk
-#: code:addons/stock_financial_risk/models/stock.py:0
+#: code:addons/stock_financial_risk/models/stock.py:30
 #, python-format
 msgid "Financial risk exceeded \n"
 msgstr ""
 
 #. module: stock_financial_risk
-#: code:addons/stock_financial_risk/models/stock.py:0
+#: code:addons/stock_financial_risk/models/stock.py:19
 #, python-format
 msgid ""
 "Financial risk exceeded in partner:\n"

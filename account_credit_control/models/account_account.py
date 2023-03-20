@@ -5,13 +5,13 @@ from odoo import fields, models
 
 
 class AccountAccount(models.Model):
-    """Add a link to a credit control policy on account.account"""
+    """ Add a link to a credit control policy on account.account """
 
     _inherit = "account.account"
 
     credit_control_line_ids = fields.One2many(
-        comodel_name="credit.control.line",
-        inverse_name="account_id",
-        string="Credit Lines",
+        comodel_name='credit.control.line',
+        inverse_name='account_id',
+        string='Credit Lines',
         readonly=True,
     )

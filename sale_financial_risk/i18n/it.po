@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 9.0c\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-06-02 00:47+0000\n"
-"PO-Revision-Date: 2023-02-01 16:44+0000\n"
+"PO-Revision-Date: 2023-02-01 16:48+0000\n"
 "Last-Translator: Francesco Foresti <francesco.foresti@ooops404.com>\n"
 "Language-Team: Italian (https://www.transifex.com/oca/teams/23907/it/)\n"
 "Language: it\n"
@@ -20,7 +20,7 @@ msgstr ""
 "X-Generator: Weblate 4.14.1\n"
 
 #. module: sale_financial_risk
-#: model:ir.model.fields,field_description:sale_financial_risk.field_sale_order_line__risk_partner_id
+#: model:ir.model.fields,field_description:sale_financial_risk.field_sale_order_line__commercial_partner_id
 msgid "Commercial Entity"
 msgstr "Entità Commerciale"
 
@@ -32,7 +32,7 @@ msgstr "Valuta dell'azienda"
 #. module: sale_financial_risk
 #: model:ir.model,name:sale_financial_risk.model_res_config_settings
 msgid "Config Settings"
-msgstr "Impostazioni configurazione"
+msgstr "Impostazioni di configurazione"
 
 #. module: sale_financial_risk
 #: model:ir.model,name:sale_financial_risk.model_res_partner
@@ -40,34 +40,16 @@ msgid "Contact"
 msgstr "Contatto"
 
 #. module: sale_financial_risk
-#: model:ir.model.fields,field_description:sale_financial_risk.field_payment_transaction__display_name
-#: model:ir.model.fields,field_description:sale_financial_risk.field_res_config_settings__display_name
-#: model:ir.model.fields,field_description:sale_financial_risk.field_res_partner__display_name
-#: model:ir.model.fields,field_description:sale_financial_risk.field_sale_order__display_name
-#: model:ir.model.fields,field_description:sale_financial_risk.field_sale_order_line__display_name
-msgid "Display Name"
-msgstr "Nome da visualizzare"
-
-#. module: sale_financial_risk
-#: code:addons/sale_financial_risk/models/sale.py:0
+#: code:addons/sale_financial_risk/models/sale.py:21
 #, python-format
 msgid "Financial risk exceeded.\n"
-msgstr "Rischio finanziario superato.\n"
+msgstr "Superato rischio finanziario.\n"
 
 #. module: sale_financial_risk
 #: model:ir.model.fields,help:sale_financial_risk.field_res_partner__risk_sale_order_include
 #: model:ir.model.fields,help:sale_financial_risk.field_res_users__risk_sale_order_include
 msgid "Full risk computation"
 msgstr "Calcolo rischio completo"
-
-#. module: sale_financial_risk
-#: model:ir.model.fields,field_description:sale_financial_risk.field_payment_transaction__id
-#: model:ir.model.fields,field_description:sale_financial_risk.field_res_config_settings__id
-#: model:ir.model.fields,field_description:sale_financial_risk.field_res_partner__id
-#: model:ir.model.fields,field_description:sale_financial_risk.field_sale_order__id
-#: model:ir.model.fields,field_description:sale_financial_risk.field_sale_order_line__id
-msgid "ID"
-msgstr "ID"
 
 #. module: sale_financial_risk
 #: model:ir.model.fields,field_description:sale_financial_risk.field_res_partner__risk_sale_order_include
@@ -87,15 +69,6 @@ msgid "Include orders in done state"
 msgstr "Includi ordini in stato \"fatto\""
 
 #. module: sale_financial_risk
-#: model:ir.model.fields,field_description:sale_financial_risk.field_payment_transaction____last_update
-#: model:ir.model.fields,field_description:sale_financial_risk.field_res_config_settings____last_update
-#: model:ir.model.fields,field_description:sale_financial_risk.field_res_partner____last_update
-#: model:ir.model.fields,field_description:sale_financial_risk.field_sale_order____last_update
-#: model:ir.model.fields,field_description:sale_financial_risk.field_sale_order_line____last_update
-msgid "Last Modified on"
-msgstr "Ultima modifica il"
-
-#. module: sale_financial_risk
 #: model:ir.model.fields,field_description:sale_financial_risk.field_res_partner__risk_sale_order_limit
 #: model:ir.model.fields,field_description:sale_financial_risk.field_res_users__risk_sale_order_limit
 msgid "Limit Sales Orders"
@@ -112,14 +85,14 @@ msgid "Risk amount"
 msgstr "Importo del rischio"
 
 #. module: sale_financial_risk
+#: model:ir.model,name:sale_financial_risk.model_sale_order
+msgid "Sale Order"
+msgstr "Ordine di vendita"
+
+#. module: sale_financial_risk
 #: model_terms:ir.ui.view,arch_db:sale_financial_risk.financial_risk_sale_order_line_pivot_view
 msgid "Sale lines"
 msgstr "Righe ordini"
-
-#. module: sale_financial_risk
-#: model:ir.model,name:sale_financial_risk.model_sale_order
-msgid "Sales Order"
-msgstr "Ordine di vendita"
 
 #. module: sale_financial_risk
 #: model:ir.model,name:sale_financial_risk.model_sale_order_line
@@ -133,13 +106,13 @@ msgid "Set 0 if it is not locked"
 msgstr "Imposta a 0 se non bloccato"
 
 #. module: sale_financial_risk
-#: code:addons/sale_financial_risk/models/sale.py:0
+#: code:addons/sale_financial_risk/models/sale.py:30
 #, python-format
 msgid "This sale order exceeds the financial risk.\n"
 msgstr "Questo ordine di vendita eccede il rischio finanziario.\n"
 
 #. module: sale_financial_risk
-#: code:addons/sale_financial_risk/models/sale.py:0
+#: code:addons/sale_financial_risk/models/sale.py:25
 #, python-format
 msgid "This sale order exceeds the sales orders risk.\n"
 msgstr "Questo ordine di vendita eccede il rischio finanziario delle vendite.\n"

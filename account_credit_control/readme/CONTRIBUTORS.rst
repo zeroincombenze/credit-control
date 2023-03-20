@@ -8,12 +8,8 @@
 * `Tecnativa <https://www.tecnativa.com>`_:
 
   * Vicent Cubells
-  * Manuel Calero
   * Ernesto Tejeda
   * Pedro M. Baeza
   * Jairo Llopis
-  * João Marques
-  * Víctor Martínez
 
 * Enric Tobella <etobella@creublanca.es>
-* Naglis Jonaitis (Versada UAB) <naglis@versada.eu>

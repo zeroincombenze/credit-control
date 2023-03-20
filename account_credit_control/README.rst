@@ -14,13 +14,13 @@ Account Credit Control
     :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
     :alt: License: AGPL-3
 .. |badge3| image:: https://img.shields.io/badge/github-OCA%2Fcredit--control-lightgray.png?logo=github
-    :target: https://github.com/OCA/credit-control/tree/14.0/account_credit_control
+    :target: https://github.com/OCA/credit-control/tree/12.0/account_credit_control
     :alt: OCA/credit-control
 .. |badge4| image:: https://img.shields.io/badge/weblate-Translate%20me-F47D42.png
-    :target: https://translation.odoo-community.org/projects/credit-control-14-0/credit-control-14-0-account_credit_control
+    :target: https://translation.odoo-community.org/projects/credit-control-12-0/credit-control-12-0-account_credit_control
     :alt: Translate me on Weblate
 .. |badge5| image:: https://img.shields.io/badge/runbot-Try%20me-875A7B.png
-    :target: https://runbot.odoo-community.org/runbot/262/14.0
+    :target: https://runbot.odoo-community.org/runbot/262/12.0
     :alt: Try me on Runbot
 
 |badge1| |badge2| |badge3| |badge4| |badge5| 
@@ -39,8 +39,10 @@ Configuration
 
 Configure the policies and policy levels in ``Invoicing  > Configuration >
 Credit Control > Credit Control Policies``.
-You can define as many policy levels as you need. You must set on which
-accounts are applied every Credit Control Policy under Accounts tab.
+You can define as many policy levels as you need and you can even define
+levels with a negative number of days to run notifications days in advance.
+You must set on which accounts are applied every Credit Control Policy
+under Accounts tab.
 
 Configure a tolerance for the Credit control and a default policy
 applied on all partners in each company, under the Accounting tab in your
@@ -80,7 +82,7 @@ Bug Tracker
 Bugs are tracked on `GitHub Issues <https://github.com/OCA/credit-control/issues>`_.
 In case of trouble, please check there if your issue has already been reported.
 If you spotted it first, help us smashing it by providing a detailed and welcomed
-`feedback <https://github.com/OCA/credit-control/issues/new?body=module:%20account_credit_control%0Aversion:%2014.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**>`_.
+`feedback <https://github.com/OCA/credit-control/issues/new?body=module:%20account_credit_control%0Aversion:%2012.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**>`_.
 
 Do not contact contributors directly about support or help with technical issues.
 
@@ -109,15 +111,11 @@ Contributors
 * `Tecnativa <https://www.tecnativa.com>`_:
 
   * Vicent Cubells
-  * Manuel Calero
   * Ernesto Tejeda
   * Pedro M. Baeza
   * Jairo Llopis
-  * João Marques
-  * Víctor Martínez
 
 * Enric Tobella <etobella@creublanca.es>
-* Naglis Jonaitis (Versada UAB) <naglis@versada.eu>
 
 Maintainers
 ~~~~~~~~~~~
@@ -132,6 +130,6 @@ OCA, or the Odoo Community Association, is a nonprofit organization whose
 mission is to support the collaborative development of Odoo features and
 promote its widespread use.
 
-This module is part of the `OCA/credit-control <https://github.com/OCA/credit-control/tree/14.0/account_credit_control>`_ project on GitHub.
+This module is part of the `OCA/credit-control <https://github.com/OCA/credit-control/tree/12.0/account_credit_control>`_ project on GitHub.
 
 You are welcome to contribute. To learn how please visit https://odoo-community.org/page/Contribute.

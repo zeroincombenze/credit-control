@@ -3,9 +3,8 @@ from odoo import fields, models
 
 
 class ResConfigSettings(models.TransientModel):
-    _inherit = "res.config.settings"
+    _inherit = 'res.config.settings'
 
     include_risk_sale_order_done = fields.Boolean(
         "Include locked sale orders into risk calculation",
-        config_parameter="sale_financial_risk.include_risk_sale_order_done",
-    )
+        config_parameter='sale_financial_risk.include_risk_sale_order_done')
